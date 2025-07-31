@@ -1,0 +1,41 @@
+2025-08-01 01:58:36.283 [info] Extension host with pid 23578 started
+2025-08-01 01:58:36.283 [info] Skipping acquiring lock for /home/theoushen/.config/Code/User/workspaceStorage/a40f90e705b700b451687ea496d349d0.
+2025-08-01 01:58:36.347 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-01 01:58:36.432 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-01 01:58:36.466 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-01 01:58:36.528 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-01 01:58:36.713 [info] Eager extensions activated
+2025-08-01 01:58:36.720 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-01 01:58:36.723 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-01 01:58:37.369 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-01 01:58:37.426 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+	at new OL (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113290)
+	at a4.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117901)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115395)
+	at nb.loadCertificates (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:70667)
+	at Object.loadAdditionalCertificates (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:22848)
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:723:53
+	at Generator.next (<anonymous>)
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:722:43
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:724:16
+	at Generator.next (<anonymous>)
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at getOrLoadAdditionalCertificates (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:720:12)
+	at addCertificatesToOptionsV1 (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:699:9)
+	at resolveProxyWithRequest (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:114:9)
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:346:77
+	at new Promise (<anonymous>)
+	at PacProxyAgent.resolveP [as resolver] (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:346:54)
+	at PacProxyAgent.<anonymous> (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:74:37)
+	at Generator.next (<anonymous>)
+	at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:8:71
+	at new Promise (<anonymous>)
+	at __awaiter (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:4:12)
+	at PacProxyAgent.connect (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:56:16)
+	at /opt/visual-studio-code/resources/app/node_modules/agent-base/dist/index.js:132:30
+2025-08-01 01:58:37.426 [info] Extension host with pid 23578 exiting with code 0

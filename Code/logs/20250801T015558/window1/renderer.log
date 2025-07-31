@@ -1,0 +1,16 @@
+2025-08-01 01:55:59.127 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-01 01:55:59.141 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-01 01:55:59.142 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-01 01:55:59.458 [info] Started local extension host with pid 23023.
+2025-08-01 01:55:59.562 [info] Started initializing default profile extensions in extensions installation folder. file:///home/theoushen/.vscode/extensions
+2025-08-01 01:55:59.923 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/theoushen/.vscode/extensions
+2025-08-01 01:55:59.933 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-08-01 01:56:00.652 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-01 01:56:02.654 [info] [perf] Render performance baseline is 64ms
+2025-08-01 01:56:57.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-01 01:56:57.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-01 01:56:57.470 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-01 01:56:57.783 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-08-01 01:56:58.010 [info] Started local extension host with pid 23110.
+2025-08-01 01:56:59.215 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-01 01:57:00.641 [info] [perf] Render performance baseline is 27ms
